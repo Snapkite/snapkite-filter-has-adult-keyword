@@ -1,0 +1,19 @@
+{
+  "name": "snapkite-filter-has-adult-keyword",
+  "version": "1.0.0",
+  "description": "Validate if tweet has adult keyword.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fedosejev/snapkite-filter-has-adult-keyword.git"
+  },
+  "author": "Artemij Fedosejev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fedosejev/snapkite-filter-has-adult-keyword/issues"
+  },
+  "homepage": "https://github.com/fedosejev/snapkite-filter-has-adult-keyword"
+}

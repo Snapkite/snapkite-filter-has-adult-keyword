@@ -38,9 +38,9 @@ function isValid(tweet) {
       || _isExplicitDescription(tweet)
     ) {
       return true;
-    } else {
-      return false;
     }
+
+    return false;
   }
 
   // Show only without this content
@@ -52,9 +52,9 @@ function isValid(tweet) {
       || _isExplicitDescription(tweet)
     ) {
       return false;
-    } else {
-      return true;
     }
+
+    return true;
   }
 }
 
