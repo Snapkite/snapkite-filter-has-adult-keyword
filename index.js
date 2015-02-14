@@ -19,12 +19,12 @@ function _isExplicitDescription(tweet) {
 };
 
 function isValid(tweet) {
-  // This filter has no power
+  // This filter doesn't block anything
   if (CONFIG.content.with && CONFIG.content.without) {
     return true;
   }
 
-  // This filter blocks everything
+  // This filter blocks all tweets
   if (!CONFIG.content.with && !CONFIG.content.without) {
     return false;
   }
