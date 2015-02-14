@@ -1,0 +1,12 @@
+{
+  "filter": {
+    "on": true
+  },
+  "content": {
+    "with": false,
+    "without": true,
+    "validate": {
+      "adultKeywords": ["foo", "bar", "baz"]
+    }
+  }
+}
