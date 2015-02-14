@@ -4,6 +4,7 @@
   "description": "Validate if tweet has adult keyword.",
   "main": "index.js",
   "scripts": {
+    "install": "cp example.config.json config.json"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
